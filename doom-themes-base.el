@@ -1236,9 +1236,9 @@
 
     ;; org-mode
     (org-archived                 :foreground doc-comments)
-    (org-block                    :background base3 :extend t)
-    (org-block-background         :background base3 :extend t)
-    (org-block-begin-line         :foreground comments :background base3 :extend t)
+    (org-block                    :background base3)
+    (org-block-background         :background base3)
+    (org-block-begin-line         :foreground comments :background base3)
     (org-block-end-line           :inherit 'org-block-begin-line)
     (org-checkbox                 :inherit 'org-todo)
     (org-checkbox-statistics-done :inherit 'org-done)
