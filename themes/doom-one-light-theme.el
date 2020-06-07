@@ -158,7 +158,6 @@ determine the exact padding."
    ((outline-1 &override) :foreground red)
    ((outline-2 &override) :foreground orange)
    (org-ellipsis :underline nil :background bg     :foreground red)
-   ((org-quote &override) :background base1)
 
    ;; helm
    (helm-candidate-number :background blue :foreground bg)
